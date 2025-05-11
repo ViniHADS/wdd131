@@ -17,7 +17,7 @@ body {
 /* Header */
 header {
     background: lightpink;
-    padding: 2rem;
+    padding: 1rem 2rem;
     grid-column: 1 / 4;
 }
 
@@ -26,25 +26,35 @@ header h1 {
     background-color: rgb(0 110 182 / 1);
     padding: 0.5rem;
     color: #fff;
+    margin-bottom: 1rem;
 }
 
 /* Navigation (uncomment in HTML if needed) */
 nav {
-    margin: 0 auto 2rem;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 0.5rem;
+    /*margin: 0 auto 2rem;
     max-width: 90vw;
-    grid-column: 1 / 4;
+    grid-column: 1 / 4;*/
 }
 
 .navigation {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    background-color: #333;
     align-items: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    /*background-color: #333;
+    align-items: center;*/
 }
 
 .navigation li {
     flex: 1 1 auto;
+    text-align: center;
 }
 
 .navigation a {
@@ -52,7 +62,8 @@ nav {
     color: #eee;
     padding: 0.75rem;
     text-decoration: none;
-    text-align: center;
+    transition: all 0.3s ease;
+    /*text-align: center;*/
 }
 
 .navigation a:hover {
