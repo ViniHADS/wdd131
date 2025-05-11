@@ -1,46 +1,100 @@
+/* Reset and box sizing */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-  
-  body {
+}
+
+/* Body layout using CSS Grid */
+body {
     display: grid;
     height: 100vh;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 300px 1fr 200px;
-  }
-  
-  header {
+    font-family: 'Acme', Arial, sans-serif;
+}
+
+/* Header */
+header {
     background: lightpink;
     padding: 2rem;
     grid-column: 1 / 4;
-  }
-  
-  .left-sidebar {
+}
+
+header h1 {
+    text-align: center;
+    background-color: rgb(0 110 182 / 1);
+    padding: 0.5rem;
+    color: #fff;
+}
+
+/* Navigation (uncomment in HTML if needed) */
+nav {
+    margin: 0 auto 2rem;
+    max-width: 90vw;
+    grid-column: 1 / 4;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #333;
+    align-items: center;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    color: #eee;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navigation a:hover {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+/* Sidebars */
+.left-sidebar {
     background: lightblue;
     padding: 1rem;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-  }
-  
-  main {
-    background: coral;
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-  }
-  
-  .right-sidebar {
+}
+
+.right-sidebar {
     background: yellow;
     padding: 1rem;
     grid-column: 3 / 4;
     grid-row: 2 / 3;
-  }
-  
-  footer {
+}
+
+/* Main content area */
+main {
+    background: #eee;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+/* Footer */
+footer {
     background: wheat;
     padding: 2rem;
     text-align: center;
     grid-column: 1 / 4;
-  }
-  
+}
+
+/* Optional typography */
+p {
+    text-align: center;
+}
