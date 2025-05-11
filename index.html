@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>WDD 131 - Dynamic Web Fundamentals - Vinicius Araujo</title>
+    <meta name="author" content="Vinicius Araujo">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Vinicius Araujo - About Me - Web Development Resources">
 </head>
 <body>
     <header>
-        <h1>Welcome to WDD 131</h1>
+        <h1>WDD 131 - Dynamic Web Fundamentals</h1>
+        <h2>Vinicius Araujo</h2>
+        <nav>
+            <a href="https://www.linkedin.com/in/viniciushenrique24/">LinkedIn</a>
+            <a href="https://byupw.instructure.com">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/2-tim/1?lang=eng&id=p7#p7">Scripture</a>
+            <a href="finalproject">Final Project</a>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
     <main>
-        <section>
-            <h2>Course Overview</h2>
-            <p>This course covers the basics of web development.</p>
+        <section class="card">
+            <h1>About Me</h1>            
+            <p class="content">Hi, I'm Vinicius Araujo an enthusiast in programming, I've a certificate in electronic and know a hardware enough cause is the area of my work, I like to play video games, study the scriptures and learn new languages.</p>
+            <img src="images/young-and-beautiful.jpg" alt="a portrait of Vinicius Araujo at the Porto Alegre Temple" class="profile-img" width="150" height="250">
+            <p class="content">I was born in Cachoeirinha, Brazil, and I am a member of The Church of Jesus Christ of Latter-day Saints. I am currently living in Gravatai, Rio Grande Do Sul - Brazil, where I am studying at BYU-Idaho.</p>
+            <img src="images/porto-alegre-temple.jpg" alt="an image of the Porto Alegre Rio Grande do Sul Temple" class="porto-alegre-img" width="275" height="275">
+            <p class="content">Gravatai is a small city that is part of the metropolitan region of the city of Porto Alegre. There are not many things for tourists to do in the city, but there are some mountains to climb and places to go hiking. It is a very quiet city and very well located in the state of Rio Grande do Sul.</p>    
+        </section>
+        <section class="card">
+            <h1>Web Dev Resources</h1>
+            <div>
+                <ul>
+                    <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+                    <li><a href="https://www.freecodecamp.org/">freeCodeCamp</a></li>
+                    <li><a href="https://www.codecademy.com/">Codecademy</a></li>
+                    <li><a href="https://www.udemy.com/">Udemy</a></li>
+                    <li><a href="https://www.coursera.org/">Coursera</a></li>
+                    <li><a href="https://stackoverflow.com/questions">stackoverflow</a></li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 WDD 131</p>
+        <p>&copy;<span id="currentyear"></span> | Vinicius Araujo | Brazil</p>
+        <p>Last Updated: <span id="lastmodified"></span> </p>
     </footer>
+</body>
 </html>
