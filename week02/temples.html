@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album activity</title>
+    <meta name="description" content="Temple Album Activity page.">
+    <meta name="author" content="Vinicius Henrique Araujo da Araujo Silva">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temple-large.css">
+    <script src="scripts/temple.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+
+        <button id="hamburger" aria-label="Toggle navigation">?</button>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="temples.html">Old</a>
+            <a href="temples-new.html">New</a>
+            <a href="temples-activity.html">Large</a>
+            <a href="temples-activity-new.html">Small</a>
+        </nav>
+    </header>
+    <main>
+
+            <!--<figure> + <figcaption>
+    - Semantic HTML5: <figure> tells the browser, ?this is a self-contained piece of media (image, diagram, etc.).?
+    - <figcaption> is the official way to label or describe the image.
+    - The caption is tied directly to the image.
+    - Improves screen reader experience and helps search engines understand the content better.
+    - You need a caption under or near the image.
+    - You're creating a gallery, article illustration, or any image that needs explanation.
+    Example:
+    <figure>
+        <img src="images/temple.jpg" alt="Description of the image">
+        <figcaption>Caption for the image</figcaption>
+    </figure> -->
+
+        <h2>Temple Album</h2>
+        <p>Click on the images to see them in full size.</p>
+
+        <div class="temple-container">
+        <figure>
+            <img src="images/brasilia-temple.webp" alt="Brasilia Brazil Temple">
+            <figcaption>Brasilia Temple</figcaption>
+        </figure>
+        <figure>
+            <img src="images/fortaleza-temple.webp" alt="Fortaleza Brazil Temple">
+            <figcaption>Fortaleza Temple</figcaption>
+        </figure>
+        <figure>
+            <img src="images/hong-kong-temple.webp" alt="Hong Kong China Temple">
+            <figcaption>Hong Kong China Temple</figcaption>
+        </figure>
+        <figure>
+            <img src="images/logan-temple.webp" alt="Logan Utah Temple">
+            <figcaption>Logan Utah Temple</figcaption>
+        </figure>
+        <figure>
+            <img src="images/porto-alegre-temple.webp" alt="Porto Alegre Brazil Temple">
+            <figcaption>Porto Alegre Brazil Temple</figcaption>
+        </figure>
+        <figure>
+            <img src="images/provo-city-center-temple.webp" alt="Provo City Center Temple">
+            <figcaption>Provo City Center Temple</figcaption>
+        </figure>
+        <figure>
+            <img src="images/salt-lake-temple.webp" alt="Salt Lake City Temple Christmas Lights">
+            <figcaption>Salt Lake City Temple Christmas Lights</figcaption>
+        </figure>
+        <figure>
+            <img src="images/sapporo-temple.webp" alt="Sapporo Japan Temple">
+            <figcaption>Sapporo Japan Temple</figcaption>
+        </figure>
+        <figure>
+            <img src="images/seoul-korea-temple.webp" alt="Seoul Korea Temple">
+            <figcaption>Seoul Korea Temple</figcaption>
+        </figure>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Vinicius Araujo | Brazil</p>
+        <p>Last Updated: <span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>

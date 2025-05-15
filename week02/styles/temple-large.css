@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #006affb6;
+  --secondary-color: #ffffff;
+  --accent1-color: #F0C808;
+  --accent2-color: #ffffffda;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  text-align: left;
+}
+
+nav {
+    display: flex important;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 0;
+}
+
+/*nav {
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 0;
+}*/
+
+nav a {
+  padding: 0.5rem 1rem;
+}
+
+/* Temple grid layout for desktop */
+.temple-container {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
