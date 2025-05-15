@@ -13,11 +13,17 @@ header {
   text-align: left;
 }
 
+/* Desktop view: show nav always */
 nav {
-    display: flex important;
-    flex-direction: row;
-    gap: 1rem;
-    margin-top: 0;
+  display: flex !important;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 0;
+}
+
+/* Hide hamburger button in desktop view */
+#hamburger {
+  display: none;
 }
 
 /*nav {

@@ -27,80 +27,42 @@ header {
 }
 
 /* Default nav layout: stacked on mobile */
-#hamburguer {
-  font-size: 2rem;
-  border: 0;
-  background: none;
-  color: #000;
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  cursor: pointer;
-}
-
-#hamburguer::before {
-  content: "?";
-}
-
-#hamburguer.open::before {
-  content: "?";
-}
-
-/* Navigation List */
 nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  list-style: none;
-  background-color: #333;
-  color: #fff;
-  max-width: 700px;
-  margin: 1rem auto;
-}
-
-/* Hide links by default */
-nav a {
   display: none;
-  padding: 1rem;
-  text-align: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* Show nav when 'open' class is added */
+nav.open {
+  display: flex;
+}
+
+/* Style hamburger button */
+#hamburger {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: var(--accent1-color);
+  cursor: pointer;
+  display: block; /* visible only in mobile */
+}
+
+nav a {
+  color: rgb(0, 0, 0);
   text-decoration: none;
-  color: #fff;
-  background-color: transparent;
-  border-radius: 0;
+  padding: 0.5rem;
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  text-align: center;
 }
 
-/* Show links when nav has .open */
-nav.open a {
-  display: block;
-}
-
-/* Hover effect */
+/* Hover effect using variable */
 nav a:hover {
-  background-color: #bbb;
-  color: #333;
-  font-weight: 700;
+  background-color: var(--accent1-color);
 }
 
-/* Active link indicator */
-nav a.active::before {
-  content: "??";
-}
-
-/* Large screen styles */
-@media (min-width: 37.5em) {
-  #hamburguer {
-    display: none; /* hide hamburger */
-  }
-
-  nav {
-    flex-direction: row;
-  }
-
-  nav a {
-    display: block;
-    flex: 1 1 100%;
-  }
-}
 main {
   max-width: 800px;
   margin: 0 auto;

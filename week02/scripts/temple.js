@@ -5,10 +5,12 @@ document.getElementById("currentyear").textContent = new Date().getFullYear();
 document.getElementById("lastmodified").textContent = document.lastModified;
 
 
-  const menuButton = document.getElementById('hamburguer');
-  const nav = document.querySelector('nav');
+  const hamburger = document.getElementById("hamburger");
+  const nav = document.querySelector("nav");
 
-  menuButton.addEventListener('click', () => {
-    menuButton.classList.toggle('open');
-    nav.classList.toggle('open');
+  hamburger.addEventListener("click", () => {
+    nav.classList.toggle("open");
+
+    // Toggle the icon ? ? ?
+    hamburger.textContent = nav.classList.contains("open") ? "?" : "?";
   });
