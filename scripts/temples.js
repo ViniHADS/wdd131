@@ -11,6 +11,6 @@ document.getElementById("lastmodified").textContent = document.lastModified;
   hamburger.addEventListener("click", () => {
     nav.classList.toggle("open");
 
-    // Toggle the icon ? ? ?
+    // Toggle between hamburger and close icons
     hamburger.textContent = nav.classList.contains("open") ? "?" : "?";
   });
