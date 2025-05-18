@@ -12,5 +12,5 @@ document.getElementById("lastmodified").textContent = document.lastModified;
     nav.classList.toggle("open");
 
     // Toggle between hamburger and close icons
-    hamburger.textContent = nav.classList.contains("open") ? "?" : "?";
+    hamburger.textContent = nav.classList.contains("open") ? "?" : "??";
   });
