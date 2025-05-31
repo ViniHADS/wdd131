@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Language attribute for the document -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Page</title>
+    <meta name="description" content="Country Page Activity page.">
+    <meta name="author" content="Vinicius Henrique Araujo da Araujo Silva">
+
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css" media="screen and (min-width: 768px)">
+
+    <!-- JS Link -->
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Country Page</h1>
+
+    <button id="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+    <nav id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="temples.html">Temples</a>
+    </nav>
+  </header>
+
+  <main>
+  <!-- Image and Info Blocks Container -->
+  <div class="image-container">
+    <picture>
+      <!-- For smaller screens (mobile) -->
+      <source srcset="images/cristo-redentor-small.webp" type="image/webp" media="(max-width: 767px)" />
+
+      <!-- For large screens (desktop) -->
+      <source srcset="images/masp-large.webp" type="image/webp" media="(min-width: 768px)" />
+
+      <!-- Fallback image -->
+      <img src="images/rio-amazonas.webp" alt="Rio Amazonas" class="img-fluid" />
+    </picture>
+
+      <!-- DATA Box -->
+      <div class="data">
+        <h3>Data Country</h3>
+        <p><strong>Area:</strong> 8.510.000KM&sup2;</p>
+        <p><strong>Population:</strong> 212,812,405</p>
+        <p><strong>Capital:</strong> Brasilia</p>
+        <p><strong>Language:</strong> Portuguese</p>
+        <p><strong>Currency:</strong> Real</p>
+        <p><strong>Time Zone:</strong> GMT-3</p>
+        <p><strong>Calling Code:</strong> +55</p>
+        <p><strong>Internet TLD:</strong> .br</p>
+      </div>
+
+      <!-- WEATHER Box -->
+      <section class="weather">
+        <div class="weather-header">
+          <img src="images/weather_sun_sunny_temperature_icon.svg" alt="Weather icon" class="weather-icon" />
+          <h3>Weather</h3>
+        </div>
+        <p><strong>Temperature:</strong> <span id="temperature"></span></p>
+        <p><strong>Conditions:</strong> Equatorial and Tropical</p>
+        <p><strong>Wind:</strong> <span id="wind"></span></p>
+        <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> | Vinicius Araujo | Brazil</p>
+    <p>Last Updated: <span id="lastmodified"></span></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,70 @@
+/* place-large.css - Desktop styles with overlay and blur */
+
+:root {
+  --primary-color: #0c71ff;
+  --secondary-color: #ffffff;
+  --accent1-color: #ffaa00;
+  --accent2-color: #ffffffda;
+}
+
+.image-container {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+
+picture img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Transparent, blurred info boxes */
+.data, .weather {
+  position: absolute;
+  backdrop-filter: blur(8px);
+  background-color: var(--accent2-color);
+  color: #000;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  font-size: 0.95rem;
+}
+
+/* Position top-left */
+.data {
+  top: 20px;
+  left: 20px;
+}
+
+/* Position bottom-right */
+.weather {
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Weather header inside box */
+.weather-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.weather-icon {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 2rem;
+  font-size: 1rem;
+}
