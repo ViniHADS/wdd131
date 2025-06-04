@@ -86,7 +86,7 @@ const temples = [
       "https://churchofjesuschristtemples.org/assets/img/temples/lisbon-portugal-temple/lisbon-portugal-temple-6264-thumb.jpg"
   },
   {
-    templeName: "london England",
+    templeName: "London England",
     location: "London, England", 
     dedicated: "1958, September, 7",
     area: 42652,
