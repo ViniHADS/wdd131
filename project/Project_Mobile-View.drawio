@@ -1,0 +1,52 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Página-1" id="rQAImpW800wGkYTCUnB_">
+    <mxGraphModel dx="4185.25" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="0.25" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BXxt-QXZIm9RKalXr69y-2" value="&lt;div&gt;Des&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Title Page [ Header ]&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;4 [ Navigation ]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="10" width="1010" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="BXxt-QXZIm9RKalXr69y-3" value="Image 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="200" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BXxt-QXZIm9RKalXr69y-4" value="Image 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="490" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BXxt-QXZIm9RKalXr69y-5" value="Image 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="780" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BXxt-QXZIm9RKalXr69y-6" value="Image 4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="1070" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BXxt-QXZIm9RKalXr69y-7" value="Image 5" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="1360" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BXxt-QXZIm9RKalXr69y-8" value="Image 6" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="1650" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BXxt-QXZIm9RKalXr69y-9" value="Image 7" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="1940" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BXxt-QXZIm9RKalXr69y-10" value="Image 8" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="2230" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BXxt-QXZIm9RKalXr69y-11" value="Image 9" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="2520" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BXxt-QXZIm9RKalXr69y-12" value="Image 10" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="2810" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BXxt-QXZIm9RKalXr69y-13" value="Image 11" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="3100" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BXxt-QXZIm9RKalXr69y-14" value="Image 12" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="3390" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BXxt-QXZIm9RKalXr69y-16" value="© 2025 | Vinicius Araujo | Brazil [ Footer ]&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Last Updated: **/**/**** **:**:** [ Footer ]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="3690" width="1010" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

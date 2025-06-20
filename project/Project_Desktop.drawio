@@ -1,0 +1,52 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Página-1" id="cI2V7pLjE5OZ-IL-4MfW">
+    <mxGraphModel dx="4074" dy="2403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="0.15" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Xeha_qjie6hcNzH80ulq-1" value="&lt;div&gt;Des&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Title Page [ Header ]&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;4 [ Navigation ]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="830" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Xeha_qjie6hcNzH80ulq-2" value="Image 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Xeha_qjie6hcNzH80ulq-3" value="Image 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="200" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Xeha_qjie6hcNzH80ulq-4" value="Image 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Xeha_qjie6hcNzH80ulq-5" value="Image 4&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="520" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Xeha_qjie6hcNzH80ulq-6" value="Image 5" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Xeha_qjie6hcNzH80ulq-7" value="Image 6" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="840" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Xeha_qjie6hcNzH80ulq-8" value="Image 7" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1160" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Xeha_qjie6hcNzH80ulq-9" value="Image 8" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1160" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Xeha_qjie6hcNzH80ulq-10" value="Image 9" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1480" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Xeha_qjie6hcNzH80ulq-11" value="Image 10" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1480" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Xeha_qjie6hcNzH80ulq-13" value="© 2025 | Vinicius Araujo | Brazil [ Footer ]&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Last Updated: **/**/**** **:**:** [ Footer ]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2140" width="830" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Xeha_qjie6hcNzH80ulq-15" value="Image 11&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1800" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Xeha_qjie6hcNzH80ulq-16" value="Image 9" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1800" width="320" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
